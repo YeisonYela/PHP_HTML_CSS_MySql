@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+ background-image: url("../img/fondo.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+header{
+    text-align: center;
+    border: 2px solid black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #232F3E;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    font-size: 25px;
+
+    }
+
+    .enlaces{
+      word-spacing: 45pt;
+    
+    }
+    /* ------------------------- */
+    /* contenido imagenes*/
+    /* ------------------------- */
+
+
+#contenedor{
+width: 1150px;
+margin: 10px auto;
+
+
+}
+.caja{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    float: left;
+    background-color: #C6C6C6;
+
+}
+.clearfix{
+
+    float: none;
+    clear: both;
+}
+
+/* ------------------------- */
+/* pie de pagina */
+/* ------------------------- */
+
+footer{
+    background-color: #232F3E;
+    padding: 10px 0 10px 0;
+    margin: auto;
+    overflow: hidden;
+    color:white;
+}
+.content-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid white;
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: white;
+    border-bottom:3px solid white ;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.content-foo p{
+    color:white;
+}
+.titulo-final{
+text-align: center;
+font-size: 25px 0 0 0 ;
+margin:20px
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.ofertas{
+  margin: 20px;
+}

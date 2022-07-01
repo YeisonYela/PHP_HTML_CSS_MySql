@@ -1,0 +1,10 @@
+div{
+  color: #fff;
+  padding: 7px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  border: 1px solid transparent;
+  font-size: 12px;
+  cursor: default;
+}

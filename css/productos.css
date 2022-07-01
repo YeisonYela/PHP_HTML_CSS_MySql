@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+ background-image: url("../img/fondo.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.login{
+  text-align: center;
+  width: 800px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+option{
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin: 2%;
+}
+select{
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin: 2%;
+}
+input[type="text"],
+input[type="password"],
+input[type=""]{
+  color: BLACK;
+  text-align: center;
+    font-size: 20px;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    margin: 2%;
+}
+input[type="file"]{
+  color: white;
+  text-align: center;
+    font-size: 20px;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    margin: 2%;
+}
+input.des{
+  text-align: center;
+  color: BLACK;
+    font-size: 20px;
+    width: 100%;
+    padding: 80px;
+    border: none;
+    margin: 2%;
+}
+h2{
+    text-align: center;
+    color: white;
+      font-size: 20px;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    margin-top: 2%;
+
+    font-size: 15px;
+    background:  #2D447C;
+    padding: 15px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: cadetblue;
+}
+.imagen{
+  text-align: center;
+  width: 800px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+img{
+  text-align: center;
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 1px;
+
+
+}

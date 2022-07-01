@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+ background-image: url("../img/fondo.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.login{
+  width: 500px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    color: white;
+      font-size: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"]{
+  color: #24303c;
+    font-size: 20px;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    margin: 2%;
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    margin-top: 2%;
+
+    font-size: 15px;
+    background:  #2D447C;
+    padding: 15px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: cadetblue;
+}
